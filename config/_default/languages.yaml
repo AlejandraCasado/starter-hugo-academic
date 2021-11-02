@@ -6,12 +6,56 @@
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
+es:
+  languageCode: es
+  contentDir: content/es
+  params:
+    email: alejandra.casado@urjc.es
+    phone: ''
+    address:
+      street: Tulipán
+      city: Móstoles
+      region: Madrid
+      postcode: '28933'
+      country: Spain
+      country_code: ES
+    coordinates:
+      latitude: '40.335670'
+      longitude: '-3.878174'
+    directions: Despacho 117 Dept. II
+    office_hours: ''
+    appointment_url: ''
+    contact_links:
+      - icon: twitter
+        icon_pack: fab
+        name: Escríbeme
+        link: 'https://twitter.com/alejandracasad0'
+  menu:
+    main:
+      - name: Sobre mí
+        url: '#about'
+        weight: 10
+      - name: Experiencia laboral
+        url: '#experience'
+        weight: 20
+      - name: Proyectos
+        url: '#projects'
+        weight: 30
+      - name: Conferencias
+        url: '#talks'
+        weight: 40
+      - name: Publicaciones
+        url: 'publication'
+        weight: 50
+      - name: Contacto
+        url: '#contact'
+        weight: 60
+
+
+
 #  title: Chinese website title...
 #  params:
 #    description: Site description in Chinese...
